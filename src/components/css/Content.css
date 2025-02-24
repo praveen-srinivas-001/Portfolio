@@ -1,41 +1,87 @@
 .home-content{
     display: flex;
-    flex-direction: column;
+    flex-direction: col;
     align-items: center;
     justify-content: center;
-
-    background-color: rgb(62, 88, 121);
+    border-radius: 5px;
+    height: 100vh;
+    
+    background-color: #DDEB9D;
 }
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 8px;
+}
+    
+.div1 {
+    grid-column: span 2 / span 2;
+    grid-row: span 5 / span 2;
+}
+
+.div2 {
+    grid-column: span 3 / span 3;
+    grid-row: span 3 / span 3;
+    grid-column-start: 3;
+}
+
+.div3 {
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+    grid-column-start: 4;
+    grid-row-start: 4;
+}
+
+.div4 {
+    grid-column-start: 3;
+    grid-row-start: 4;
+}
+
+.div5 {
+    grid-column-start: 3;
+    grid-row-start: 5;
+}
+        
+
 .skills-content{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    height: 100vh;
     background-color: rgb(62, 88, 121);
 }
+
 .experience-content{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    height: 100vh;
     background-color: rgb(62, 88, 121);
 }
+
 .project-content{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    height: 100vh;
     background-color: rgb(62, 88, 121);
 }
+
 .contact-content{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
+    height: 100vh;
     background-color: rgb(62, 88, 121);
 }
+
 h1,h2,h3,h4,h5,h6{
-    color: rgb(216, 196, 182);
+    color: #143D60;
     font-family: 'Roboto', sans-serif;
 }
