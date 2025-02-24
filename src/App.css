@@ -1,0 +1,21 @@
+body{
+  background-color: rgb(33, 53, 85);
+}
+
+h1,h2,h3,h4,h5,h6{
+  color: rgb(216, 196, 182);
+}
+
+p, li{
+  color: rgb(245, 239, 231);
+}
+
+/* palette */
+/* #213555
+#3E5879
+#D8C4B6
+#F5EFE7
+rgb(33, 53, 85)
+rgb(62, 88, 121)
+rgb(216, 196, 182)
+rgb(245, 239, 231) */
