@@ -51,7 +51,7 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: rgb(62, 88, 121);
+    background-color: #DDEB9D;
 }
 
 .experience-content{
@@ -60,7 +60,7 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: rgb(62, 88, 121);
+    background-color: #DDEB9D;
 }
 
 .project-content{
@@ -69,7 +69,7 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: rgb(62, 88, 121);
+    background-color: #DDEB9D;
 }
 
 .contact-content{
@@ -78,7 +78,7 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: rgb(62, 88, 121);
+    background-color: #DDEB9D;
 }
 
 h1,h2,h3,h4,h5,h6{

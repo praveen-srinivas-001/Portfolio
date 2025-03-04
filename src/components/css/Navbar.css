@@ -37,7 +37,7 @@ body {
     background-color: #27667B;
     color: #143D60;
     /* display: flex; */
-    min-height: 100vh;
+    /* min-height: 100vh; */
 }
 
 .sidebar {
@@ -71,7 +71,7 @@ body {
     border-radius: 15px 0px 0px 15px;
     cursor: pointer;
     position: relative;
-    color: #666;
+    color: #143D60;
     text-decoration: none;
     font-weight: bold;
     
@@ -86,21 +86,11 @@ body {
     font-size: 14px;
 }
 
-.nav-link:active, 
-.nav-link:hover {
+.nav-link:focus, 
+.nav-link:focus{
     background-color: #DDEB9D;
     color: #143D60;
     
-}
-
-.nav-link.active::before {
-    content: '';
-    position: absolute;
-    width: 8px;
-    height: 8px;
-    background-color: #FF3B3B;
-    border-radius: 50%;
-    right: -4px;
 }
 
 /* Accent color dot */
