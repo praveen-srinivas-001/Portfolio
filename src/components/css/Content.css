@@ -5,11 +5,19 @@
     justify-content: center;
     border-radius: 5px;
     height: 100vh;
-    
     background-color: #DDEB9D;
 }
 
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 80vw;    
+    h: 80vw;
+}
+/* 
 .parent {
+    height: 75vh;
+    width: 75vw;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(5, 1fr);
@@ -43,7 +51,7 @@
     grid-column-start: 3;
     grid-row-start: 5;
 }
-        
+         */
 
 .skills-content{
     display: flex;

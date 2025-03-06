@@ -3,14 +3,6 @@ import './css/Navbar.css';
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
-    // const [activebar,setActivebar] = useState('home');
-
-    // useEffect(() => {
-    //     const changeColor = () => {
-    //         document
-    //     }
-    // }, [activebar])
-
     return (
         <>
         <nav className="sidebar">
